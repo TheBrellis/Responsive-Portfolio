@@ -282,6 +282,10 @@ nav a{
     margin: 20px;
 }
 
-
+#profpic {
+    float: none;
+    margin-left: 23.9955%;
+    padding:0px;
+}
 
 }
