@@ -244,3 +244,44 @@ nav {
         margin-left: 15px;
     }
 }
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*MEDIA QUERIES FOR 640PX */
+
+@media (max-width: 640px) {
+    /*-----UNIVERSAL (640px) Small-------------------------------------------------------------------*/
+header {
+    text-align: center;
+}
+  
+header h1 {
+    margin: 0px;
+    width: 100%;
+    padding: 20px 0px;
+
+        
+}
+
+nav {
+    width: 100%;
+    float:right;
+    margin-right: 30.464%;
+}
+nav ul {
+    margin:0px;
+}
+
+nav a{
+    padding: 0px 15px 0px 15px;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.content {
+    width: 84%;
+    margin: 20px;
+}
+
+
+
+}
