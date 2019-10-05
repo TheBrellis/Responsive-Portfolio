@@ -291,7 +291,8 @@ nav a{
 /*----------portfolio.html (640px) Small -----------------------------------------------------------------------------------------*/
 .projects img {
     width: 100%;
-    margin: 10px 0px;
+    height: auto;
+    margin: 0px;
  }
 
 .projects div {
@@ -300,8 +301,8 @@ nav a{
  
  .hangman h2, .rpg h2, .trivia h2, .rutgers h2, .rockPaperScissors h2 {
      position: relative;
-     top: 115px;
-     font-size : 20px;
+     top: 260px;
+     font-size : 30px;
  }
 
 }
