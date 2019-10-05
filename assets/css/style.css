@@ -15,8 +15,7 @@ header {
     border: 1px;
     border-color: #dddddd;
     border-style: solid;
-    margin-bottom:0px;
-
+    padding-bottom:0px;
 }
 
 .clearfix::after {
@@ -31,18 +30,19 @@ header h1 {
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
     border: 1px;
     padding: 20px;
-    margin-left: 50%;
-    margin-bottom: 0px;
+    margin-left: 16%;
+    margin-top: 39px;
+    margin-bottom:0px;
     float: left;
-    overflow: auto;
-    position: absolute;
-    z-index:0;
-    left: -480px; 
+   
+     
 }
 
 nav {
-    margin-left: 50%;
-    
+    margin-right: 16%;
+}
+nav ul {
+    list-style-type: none;
 }
 
 nav a{
@@ -53,9 +53,7 @@ nav a{
     text-decoration: none;
     padding: 0 10px 0 10px;
     margin: 50px 0px 30px 0px;
-    float: left;
-    position: relative;
-    left: 330px;
+    float:right;
     
 }
 /* END OF HEADER STYLING */
@@ -76,14 +74,10 @@ main{
     border-color: #cccccc;
     width: 960px;
     padding: 0px 30px 20px 30px;
-    margin-left: 50%;
-    overflow: auto;
-    position:relative;
-    left: -480px;
-    top: 40px;
-    z-index: 2;
+    margin-left: 16%;
+    margin-top: 40px;
+ 
 }
-
 .content h1 {
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
@@ -257,9 +251,8 @@ header h1 {
     left: -420px;
 }
 
-nav a{
-    left: 202px;
-
+nav {
+    margin-right: 30px;
 }
 
 
