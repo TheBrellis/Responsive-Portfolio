@@ -249,6 +249,7 @@ nav {
 /*MEDIA QUERIES FOR 640PX */
 
 @media (max-width: 640px) {
+
     /*-----UNIVERSAL (640px) Small-------------------------------------------------------------------*/
 header {
     text-align: center;
@@ -281,11 +282,26 @@ nav a{
     width: 84%;
     margin: 20px;
 }
-
+ /*------index.html (640px) Small -----------------------------------------------------------------------------------------*/
 #profpic {
     float: none;
     margin-left: 23.9955%;
     padding:0px;
 }
+/*----------portfolio.html (640px) Small -----------------------------------------------------------------------------------------*/
+.projects img {
+    width: 100%;
+    margin: 10px 0px;
+ }
+
+.projects div {
+    width: 100%;
+}
+ 
+ .hangman h2, .rpg h2, .trivia h2, .rutgers h2, .rockPaperScissors h2 {
+     position: relative;
+     top: 115px;
+     font-size : 20px;
+ }
 
 }
